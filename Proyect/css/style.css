@@ -1,0 +1,716 @@
+@font-face {
+    font-family: Neonderthaw-regular;
+    src: url("../recursos/FUENTE/flottflott.ttf");
+}             
+                 /* HOME PAGE */
+#home{
+    background-image: url(https://i.pinimg.com/originals/ef/be/e9/efbee92754f38473063b6c175295b317.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    display: grid;
+    grid-area: 
+                "header heder header header"
+                "none   father  father  none"
+                "none   father  father  none"
+                "none   father  father  none"
+                "main   main    main    main"
+                "newa   news    news    news"
+                "newa   news    news    news"
+                "descript descript descript descript"
+                "descript descript descript descript"
+                "info   info    info    info"
+                "foote  footer footer footer"
+                ;
+     grid-template-columns: repeat (4 1fr);
+     grid-template-rows: repeat (14 1fr);
+}
+
+
+.logo{
+    height: 130px;
+    width: 180px;
+    margin: 20px;
+ 
+}
+samp{
+    margin: 50px;
+}
+.father{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: flex-start;
+    grid-area: fahter;
+
+}
+h1{
+    font-size: 150px;
+    color: white;
+    font-weight: 80;
+    font-style: italic;
+    text-align: center;
+    font-family: "Neonderthaw-regular", serif;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    margin: 20px;
+}
+h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 30;
+    font-style: italic;
+    text-align: center;
+    font-family: "Neonderthaw-regular", serif;
+    text-shadow: 0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+           
+}
+
+
+#home .header{
+    width: 100%;
+    grid-area: header;
+}
+.header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    text-align: flex-end;
+    list-style-type: none;
+}
+
+.header li{
+        padding: 20px 0;
+       
+}
+.header a{
+    background-color: red; 
+    opacity: 50%;
+    border-radius: 12px;
+    border: white;
+    box-shadow: inset 0 0 10px white, 0 0 15px red, 0 0 30px red, 0 0 35px red;
+    position: fixed;
+    text-shadow: 0 0 10px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+    font-weight: 20px;
+    font-style: italic; color: rgb(14, 247, 103); text-decoration: none;
+    z-index: 100;
+    font-size: 15px;
+    width: 70px;
+    text-align: center;
+   
+}
+
+#mainNavigation{
+    width: 100%;
+    grid-area: main;
+}
+
+#mainnavigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#mainNavigation li{
+    margin: 20px;
+    padding: 10px 0;
+}
+
+#mainNavigation a{
+    size: 100px;
+    background-color: red; 
+    opacity: 90%;
+    border-radius: 12px;
+    border: white;
+    box-shadow: inset 0 0 5px white, 0 0 5px red, 0 0 5px red, 0 0 5px red;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+    text-emphasis-color: white;
+    font-style: italic;
+    color: rgb(14, 247, 103); 
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103);
+    margin: 10px;
+    }
+
+.div1,.div2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start; 
+}
+
+#news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: news;
+}
+
+#news h3{
+    text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+    font-size: 30px;
+    color: rgb(14, 247, 103);
+    box-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+    size: 40px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: " Neonderthaw-regular" ;
+
+}
+
+#news h4{
+    color: rgb(14, 247, 103);
+    position: left; 
+    width: 50px; 
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+    width: 70px;
+}
+#news .p1{
+    font-size: 20px;
+    color: rgb(14, 247, 103);
+    text-size-adjust: left;
+    margin: auto;
+   
+}
+#news img{
+    box-shadow: inset 0 0 10px rgb(235, 232, 238), 0 0 15px blue, 0 0 30px blue, inset  0 40px blue;
+    box-sizing: 20px;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+}
+
+#descript p{
+    height: 400px;
+    width: 100%;
+    box-shadow: inset 0 0 10px rgb(235, 232, 238), 0 0 15px blueviolet, 0 0 30px blueviolet, inset 0 0 40px blueviolet;
+    text-align: center;
+    color: rgb(14, 247, 103);
+    font-size: 20px;
+    overflow: auto;   
+    padding:  20px, 8px, 8px, 8px;
+      
+}
+#descript{
+    grid-area: descript;
+}    
+
+#infoButtons{
+    font-size: 25px;
+    background-color: none;
+     opacity: 90%;
+    border-radius: 12px;
+    border: white;
+    box-shadow: inset 0 0 5px white, 0 0 5px red;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+    font-style: italic; color: rgb(14, 247, 103);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    grid-area: info;
+}
+
+
+
+#infoButtons ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    list-style-type: none;
+ 
+}
+
+#infoButtons a{
+    background-color: red; opacity: 90%;
+    border-radius: 12px;
+    border: white;
+    box-shadow: inset 0 0 5px white, 0 0 5px red;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+    font-style: italic; color: rgb(14, 247, 103);
+    width: 200px;
+    text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+    text-decoration: none; 
+}
+
+footer{
+    grid-area: footer;
+}
+footer p{
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-size:  25px;
+    color: rgb(14, 247, 103);
+    text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+}
+/* SUSCRIBE PAGE */
+
+#suscribeBody{
+            background-image: url(https://allenmmorrison.files.wordpress.com/2020/06/smalls_jazz_club_publication_final_4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:  top;
+            background-attachment: scroll;
+                     
+}
+
+#suscribeBody h1{
+    color: rgb(36, 240, 29);
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+}
+#suscribeBody h2{
+    color: rgb(36, 240, 29);
+}
+#suscribeBody .titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#descript{
+            font-style: oblique;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .form, label, .personal-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sugerform{
+    position:central;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    margin-left: 200px;
+    
+}
+
+form input{
+    background-color: none;
+    border-radius: 12px;
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+    box-shadow: rgb(36, 240, 29) 20px;
+    margin: 5px;
+    size: 15px;
+}
+.kind{
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  
+}
+#susForm .form{
+    color: rgb(36, 240, 29);
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+
+}
+#susForm .answers{
+    color: rgb(36, 240, 29);
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+}
+#suegerForm h2{
+    color: red;
+    font-size: 40px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+form h3{
+        color: rgb(36, 240, 29);
+        text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+}
+#sugerForm label{
+    font-family: "Neonderthaw-regular", serif;
+    font-style: italic;
+    color: red;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    width: 100px;
+    margin: 15px;
+}
+   
+
+                    /* JAMS PAGE */
+#jams{
+    background-image: url(https://www.shutterstock.com/image-illustration/jazz-night-neon-text-on-260nw-2323094479.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.weekDays{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+}
+#weeksDays img{
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+  
+}
+
+.weekDays iframe{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 450px;
+}
+
+#weeksDays .weekDays{
+    color: rgba(71, 29, 223, 0.89);
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(71, 29, 223, 0.89), 0 0 15px rgba(71, 29, 223, 0.89), 0 0 30px rgba(71, 29, 223, 0.89), 0 0 50px rgba(71, 29, 223, 0.89);
+    overflow: hidden;
+    margin: 20px 40px;
+    box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
+   width: 1200px;
+   height: 300px;  
+}
+
+.weekDays p{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 0 0 5px rgba(71, 29, 223, 0.89), 0 0 15px rgba(71, 29, 223, 0.89), 0 0 30px rgba(71, 29, 223, 0.89), 0 0 50px rgba(71, 29, 223, 0.89);
+    text-decoration: none;
+    margin: 40px;
+    overflow: auto;
+}
+
+.weekDays h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/* MERCHANDAISING */
+
+#merchandaising{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5d9098716de3150009a57520/Village-Vanguard-in-Greenwich-Village--New-York/960x0.jpg?height=600&width=711&fit=bounds);
+    background-attachment: scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;  
+}
+
+#merchandaising h1{
+    font-size: 100px;
+    text-shadow: hwb(60 0% 0%) 05px hwb(60 0% 0%)10px yellow 30px hwb(60 0% 0%) 35px;
+    color: hwb(60 0% 0%);
+}
+.shop .products{
+    background-color: yellow; opacity: 90%;
+    border-radius: 8px;
+    padding: 10px 75px;
+    width: 250px;
+    height: 450px;
+    margin: 20px 500px;
+    box-shadow: rgb(255, 0, 0) 10px rgb(255, 0, 0) 40px inset hwb(0 100% 0%) 30px rgb(255, 0, 0) 25px inset rgb(255, 255, 255) 20px;
+    color: blueviolet;
+    text-align: center;
+}
+.shop h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(226, 43, 43); 
+    font-family: "Nontderthaw-regular.ttf" - sans-serif;
+    border-radius: 8px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    margin-bottom: 20px;
+    margin-top: -5px;   
+}
+.shop img{
+    width: 100%;
+    height: auto;
+    aspect-ratio:  1/1;
+    box-shadow: rgb(138, 43, 226) 10px, rgb(138, 43, 226) 10px,  rgb(138, 43, 226) 30px  rgb(138, 43, 226) 30px;
+    object-fit: cover;      
+}
+
+.shop .description{
+    font-size: 18px;
+    color: rgb(226, 43, 43);
+    font-family: "Neonderthaw-regular.ttf";
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    opacity: none;
+}
+
+.shop .money{
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.shop a{
+    background-color:blueviolet; opacity: 100%;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: rgb(138, 43, 226) 5px, rgb(138, 43, 226) 15px, rgb(138, 43, 226) 20px, rgb(138, 43, 226) 40px;
+    position: relative; 
+}
+.shop .products{
+    margin-top: 30px;
+}
+
+                /* SHOWS PAGE  */
+
+#shows{
+    background-image: url(https://www.birdlandclub.com/wp-content/uploads/2014/07/birdland_club_date.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+#shows main{
+    display: grid;
+    grid-template-areas:
+                    "header header header"
+                    ".      title  .     "
+                    ".      title  .     "
+                    "show1 show1 show1"
+                    "show2 show2 show2"
+                    "show3 show3 show3"
+                    "footer footer fooeter"
+                    ;
+    grid-template-columns: repeat (3 1fr);
+    grid-template-rows: repeat (7 1fr);
+}
+
+#shows h1{
+    color: rgb(72, 255, 0);
+    font-family: "Neonderthaw-regular", serif;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+
+#shows h2{
+    color: rgb(72, 255, 0);
+    font-family: "Neonderthaw-regular", serif;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+
+#shows .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: title;
+}
+
+.show1{
+    grid-area: show1;
+}
+.show2{
+    grid-area: show2;
+}
+
+.show3{
+    grid-area: show3;
+}
+
+.show1, .show2, .show3{
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: color rgb(255, 165, 0) 10px, rgb(255, 165, 0) 15px, rgb(255, 165, 0) 25px, rgb(255, 165, 0) 35px, inset rgb(255, 165, 0) 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    width: 1200px;
+    box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
+    font-weight: 600px; 
+    margin: 50px;
+
+}
+
+#shows h3{
+    color: rgb(72, 255, 0);
+    font-family: "Neonderthaw-regular", serif;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    text-decoration: underline;
+    margin-top: -100px;
+    margin-left: 100px;
+    font-size: 60px;
+}
+
+#shows .jazzImg{
+    height: 270px;
+    width: 250px;
+    position: absolute;
+    margin: 5px;
+}
+
+#shows .showsp{
+    position: absolute;
+    margin-left: 300px;
+  
+}
+
+#shows footer{
+    grid-area: footer;
+}
+            /* MEDIA QUEERS */
+
+@media (max-width: 480px) {
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .father{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-items: center;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 18px;
+        margin: auto;
+    }
+    h2{
+        font-size: 40px;
+        margin: auto;
+    }
+
+    }
+
+    #mainnavigation ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: unset;
+        
+    }
+    
+    #mainNavigation li{
+        margin: 5px; 
+    }
+    
+    #mainNavigation a{
+        size: 15px;
+        font-size: 15px;
+        margin: auto;
+    }
+    
+    .div1,.div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        align-items: center; 
+        overflow: auto;
+    }
+    .div1 .div2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        
+    #news h3{
+            font-size: 30px;
+            size: 40px;
+            display: inline-block;     
+            padding: 5px;
+            justify-self: center ;
+        }
+        
+        #news h4{
+            color: rgb(14, 247, 103);
+            position: left; 
+            width: 50px; 
+            text-decoration: underline;
+            font-size: 20px;
+            font-style: italic;
+            align-self: center;
+           
+        }
+        #news .p1{
+            font-size: 20px;
+            height: 100px;
+            width: 100%;
+            text-align: right;
+         
+            
+           
+            
+        }
+        #news img{
+         
+            height: 200px;
+            width: 100%;
+            margin: 0;
+            object-fit: cover;
+        
+        }   
+
+        #descript p{
+            height: auto;
+            width: 420px;
+            text-align: right;          
+           }   
+           #infoButtons{
+       font-size: 25px;
+        background-color: none;
+         opacity: 90%;
+        border-radius: 12px;
+        border: white;
+        box-shadow: inset 0 0 5px white, 0 0 5px red;
+        text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+        font-style: italic; color: rgb(14, 247, 103);
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        grid-area: info;
+    }
+
+    #infoButtons ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        list-style-type: none;
+ 
+    }
+
+    #infoButtons a{
+        background-color: red; opacity: 90%;
+        border-radius: 12px;
+        border: white;
+        box-shadow: inset 0 0 5px white, 0 0 5px red;
+        text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+        font-style: italic; color: rgb(14, 247, 103);
+        width: 200px;
+        text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+         text-decoration: none; 
+    }
+    
+   
+
