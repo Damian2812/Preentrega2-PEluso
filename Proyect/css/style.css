@@ -223,9 +223,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     list-style-type: none;
- 
 }
 
 #infoButtons a{
@@ -309,8 +307,10 @@ form input{
     text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-  
+    justify-content: space-between; 
+}
+.answers{
+    margin: 40px;
 }
 #susForm .form{
     color: rgb(36, 240, 29);
@@ -327,9 +327,12 @@ form input{
     text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
 }
 form h3{
-        color: rgb(36, 240, 29);
-        text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+    color: rgb(36, 240, 29);
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+    list-style-type: none;
 }
+
+
 #sugerForm label{
     font-family: "Neonderthaw-regular", serif;
     font-style: italic;
@@ -337,6 +340,22 @@ form h3{
     text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
     width: 100px;
     margin: 15px;
+}
+.doYou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.recibe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+}
+
+form textarea{
+    width: 300px;
 }
    
 
@@ -588,12 +607,12 @@ form h3{
         justify-items: center;
     }
     h1{
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 18px;
         margin: auto;
     }
     h2{
-        font-size: 40px;
+        font-size: 20px;
         margin: auto;
     }
 
@@ -632,8 +651,8 @@ form h3{
     }
         
     #news h3{
-        font-size: 30px;
-         size: 40px;
+        font-size: 15px;
+         size: 20px;
          display: inline-block;     
          padding: 5px;
         justify-self: center ;
@@ -648,7 +667,7 @@ form h3{
     }
 
     #news .p1{
-        font-size: 20px;
+        font-size: 15px;
         height: 100px;
         width: 100%;
         text-align: right;        
@@ -657,7 +676,7 @@ form h3{
     #news img{
          
         height: 200px;
-        width: 100%;
+        width: 200px;
         margin: 0;
         object-fit: cover;
         
@@ -665,14 +684,15 @@ form h3{
 
     #descript p{
         height: auto;
-        width: 420px;
-        text-align: right;          
+        width: 100%;
+        text-align: right; 
+        margin: none;         
     }   
          
     #infoButtons{
-        font-size: 25px;
+        font-size: 15px;
         width: 100%;
-        height: 200px;
+        height: 100px;
         display: flex;
         flex-direction: column;
      
@@ -688,8 +708,7 @@ form h3{
     }
 
     #infoButtons a{
-
-        width: 200px;
+        width: 20px;
 
     }
 }
