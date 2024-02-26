@@ -303,7 +303,6 @@ form input, .last-send{
     margin: 5px;
     size: 15px;
 }
-
 .last-send{
 
 }
@@ -441,7 +440,8 @@ form textarea{
     color: hwb(60 0% 0%);
 }
 .shop .products{
-    background-color: yellow; opacity: 90%;
+    background-color: yellow; 
+    opacity: 90%;
     border-radius: 8px;
     padding: 10px 75px;
     width: 250px;
@@ -566,7 +566,7 @@ form textarea{
     height: 300px;
     width: 1200px;
     box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
-    font-weight: 600px; 
+   
     margin: 50px;
 
 }
@@ -590,8 +590,10 @@ form textarea{
 
 #shows .showsp{
     position: absolute;
+    overflow: auto;
     margin-left: 300px;
-  
+    width: 900px;
+    height: 80px;
 }
 
 #shows footer{
