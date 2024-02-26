@@ -92,7 +92,8 @@ h2{
     position: fixed;
     text-shadow: 0 0 10px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
     font-weight: 20px;
-    font-style: italic; color: rgb(14, 247, 103); text-decoration: none;
+    font-style: italic; color: rgb(14, 247, 103); 
+    text-decoration: none;
     z-index: 100;
     font-size: 15px;
     width: 70px;
@@ -437,14 +438,14 @@ form textarea{
     text-shadow: hwb(60 0% 0%) 05px hwb(60 0% 0%)10px yellow 30px hwb(60 0% 0%) 35px;
     color: hwb(60 0% 0%);
 }
-.col-4 .shop{
+.col-12 .shop{
     background-color: yellow; 
     opacity: 90%;
     border-radius: 8px;
     padding: 10px 75px;
     width: 250px;
     height: 450px;
-    margin: 20px 500px;
+    margin: 20px 300px;
     box-shadow: rgb(255, 0, 0) 10px rgb(255, 0, 0) 40px inset hwb(0 100% 0%) 30px rgb(255, 0, 0) 25px inset rgb(255, 255, 255) 20px;
     color: blueviolet;
 ;
