@@ -303,9 +303,7 @@ form input, .last-send{
     margin: 5px;
     size: 15px;
 }
-.last-send{
 
-}
 .kind{
     text-shadow:  0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
     display: flex;
@@ -403,8 +401,8 @@ form textarea{
     overflow: hidden;
     margin: 20px 40px;
     box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
-   width: 1200px;
-   height: 300px;  
+    width: 1200px;
+    height: 300px;  
 }
 
 .weekDays p{
@@ -439,7 +437,7 @@ form textarea{
     text-shadow: hwb(60 0% 0%) 05px hwb(60 0% 0%)10px yellow 30px hwb(60 0% 0%) 35px;
     color: hwb(60 0% 0%);
 }
-.shop .products{
+.col-4 .shop{
     background-color: yellow; 
     opacity: 90%;
     border-radius: 8px;
@@ -449,7 +447,7 @@ form textarea{
     margin: 20px 500px;
     box-shadow: rgb(255, 0, 0) 10px rgb(255, 0, 0) 40px inset hwb(0 100% 0%) 30px rgb(255, 0, 0) 25px inset rgb(255, 255, 255) 20px;
     color: blueviolet;
-    text-align: center;
+;
 }
 .shop h3{
     font-size: 20px;
@@ -458,18 +456,16 @@ form textarea{
     font-family: "Nontderthaw-regular.ttf" - sans-serif;
     border-radius: 8px;
     text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
-    margin-bottom: 20px;
-    margin-top: -5px;   
+  
 }
 .shop img{
-    width: 100%;
+    width: 200px;
     height: auto;
-    aspect-ratio:  1/1;
     box-shadow: rgb(138, 43, 226) 10px, rgb(138, 43, 226) 10px,  rgb(138, 43, 226) 30px  rgb(138, 43, 226) 30px;
-    object-fit: cover;      
+    aspect-ratio: 1/1;
 }
 
-.shop .description{
+.shop .card-body, h5 p{
     font-size: 18px;
     color: rgb(226, 43, 43);
     font-family: "Neonderthaw-regular.ttf";
@@ -478,25 +474,15 @@ form textarea{
     opacity: none;
 }
 
-.shop .money{
-    font-size: 18px;
-    color: blue;
-    font-weight: 500;
-    margin-bottom: 40px;
-}
-
 .shop a{
     background-color:blueviolet; opacity: 100%;
     color: white;
-    padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
     box-shadow: rgb(138, 43, 226) 5px, rgb(138, 43, 226) 15px, rgb(138, 43, 226) 20px, rgb(138, 43, 226) 40px;
-    position: relative; 
-}
-.shop .products{
-    margin-top: 30px;
-}
+ }
+
+
 
                 /* SHOWS PAGE  */
 
@@ -566,7 +552,6 @@ form textarea{
     height: 300px;
     width: 1200px;
     box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
-   
     margin: 50px;
 
 }
@@ -711,14 +696,11 @@ form textarea{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         list-style-type: none;
- 
     }
 
     #infoButtons a{
         width: 20px;
-
     }
 }
 
