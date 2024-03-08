@@ -34,9 +34,7 @@
     margin: 20px;
  
 }
-samp{
-    margin: 50px;
-}
+
 .father{
     display: flex;
     flex-flow: column;
@@ -69,6 +67,7 @@ h2{
 
 #home .header{
     width: 100%;
+    height: 180px;
     grid-area: header;
 }
 .header ul{
@@ -83,7 +82,7 @@ h2{
         padding: 20px 0;
        
 }
-.header a{
+.header button, a{
     background-color: red; 
     opacity: 50%;
     border-radius: 12px;
@@ -96,7 +95,7 @@ h2{
     text-decoration: none;
     z-index: 100;
     font-size: 15px;
-    width: 70px;
+    width: 80px;
     text-align: center;
    
 }
