@@ -1,0 +1,95 @@
+#merchandaising{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5d9098716de3150009a57520/Village-Vanguard-in-Greenwich-Village--New-York/960x0.jpg?height=600&width=711&fit=bounds);
+    background-attachment: scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;  
+    .header{
+        width: 100%;
+        height: 180px;
+        grid-area: header;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly; 
+            text-align: flex-end;
+            list-style-type: none;
+            .join, li{
+             
+                 padding: 20px 0;
+            
+              button, a{
+                    background-color: red; 
+                    opacity: 50%;
+                    border-radius: 12px;
+                    border: white;
+                    box-shadow: inset 0 0 10px white, 0 0 15px red, 0 0 30px red, 0 0 35px red;
+                    position: fixed;
+                    text-shadow: 0 0 10px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+                    color: rgb(14, 247, 103);
+                    font-weight: 20px;                 
+                    font-style: italic;  
+                    text-decoration: none;
+                    z-index: 100;
+                    font-size: 13px;
+                    width: 80px;
+                    text-align: center;   
+                    }        
+                
+            }
+        }
+    }
+    h1{
+        font-size: 100px;
+        text-shadow: hwb(60 0% 0%) 05px hwb(60 0% 0%)10px yellow 30px hwb(60 0% 0%) 35px;
+        color: hwb(60 0% 0%);
+        text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+        font-style: italic;
+        text-align: center;
+        font-family: "Neonderthaw-regular", serif;
+    }
+    .col-12{
+        .shop{
+             background-color: yellow; 
+             opacity: 90%;
+             border-radius: 8px;
+             padding: 10px 75px;
+             width: 250px;
+             height: 450px;
+             margin: 20px 300px;
+             box-shadow: rgb(255, 0, 0) 10px rgb(255, 0, 0) 40px inset hwb(0 100% 0%) 30px rgb(255, 0, 0) 25px inset rgb(255, 255, 255) 20px;
+            color: blueviolet;
+        }
+        h3{
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(226, 43, 43); 
+            font-family: "Nontderthaw-regular.ttf" - sans-serif;
+            border-radius: 8px;
+            text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+        }
+        img{
+            width: 200px;
+            height: auto;
+            box-shadow: rgb(138, 43, 226) 10px, rgb(138, 43, 226) 10px,  rgb(138, 43, 226) 30px  rgb(138, 43, 226) 30px;
+            aspect-ratio: 1/1;
+        }
+        a{
+            background-color:blueviolet; opacity: 100%;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: rgb(138, 43, 226) 5px, rgb(138, 43, 226) 15px, rgb(138, 43, 226) 20px, rgb(138, 43, 226) 40px;
+        }
+        p, h5{
+            font-size: 18px;
+            color: rgb(226, 43, 43);
+            font-family: "Neonderthaw-regular.ttf";
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+            opacity: none;
+        }
+    }
+    
+}

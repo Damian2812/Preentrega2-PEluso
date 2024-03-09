@@ -1,0 +1,201 @@
+#home{
+    background-image: url(https://i.pinimg.com/originals/ef/be/e9/efbee92754f38473063b6c175295b317.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    display: grid;
+    grid-area: 
+                "header heder header header"
+                "none   father  father  none"
+                "none   father  father  none"
+                "none   father  father  none"
+                "main   main    main    main"
+                "newa   news    news    news"
+                "newa   news    news    news"
+                "descript descript descript descript"
+                "descript descript descript descript"
+                "info   info    info    info"
+                "foote  footer footer footer"
+                ;
+     grid-template-columns: repeat (4 1fr);
+     grid-template-rows: repeat (14 1fr);
+
+    .logo{
+        height: 130px;
+        width: 180px;
+        margin: 20px;   
+    }
+
+    .father{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-items: flex-start;
+        grid-area: fahter;
+        margin: 20px;
+
+        h1{
+            font-size: 150px;
+            color: white;
+            font-weight: 80;
+            font-style: italic;
+            text-align: center;
+            font-family: "Neonderthaw-regular", serif;
+            text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+            margin: 20px;
+            }
+        h2{
+            font-size: 60px;
+            color: white;
+            font-weight: 30;
+            font-style: italic;
+            text-align: center;
+            font-family: "Neonderthaw-regular", serif;
+            text-shadow: 0 0 5px rgba(233, 11, 233, 0.9), 0 0 15px rgba(233, 11, 233, 0.9), 0 0 30px rgba(233, 11, 233, 0.9), 0 0 50px rgba(233, 11, 233, 0.9);
+            }
+
+    }
+
+
+
+    #mainNavigation{
+        width: 100%;
+        grid-area: main;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+        li{
+            margin: 20px;
+            padding: 10px 0;
+        }
+        a{
+            size: 100px;
+            background-color: red; 
+            opacity: 90%;
+            border-radius: 12px;
+            border: white;
+            box-shadow: inset 0 0 5px white, 0 0 5px red, 0 0 5px red, 0 0 5px red;
+            text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+            text-emphasis-color: white;
+            font-style: italic;
+            color: rgb(14, 247, 103); 
+            text-decoration: none;
+            font-size: 20px;
+            text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103);
+            margin: 10px;
+            }
+    }
+    #news{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: news;
+        h3{
+            text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+            font-size: 30px;
+            color: rgb(14, 247, 103);
+            box-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+            size: 40px;
+            display: inline-block;
+            border-radius: 8px;
+            padding: 5px;
+            font-family: " Neonderthaw-regular" ;
+            }
+            .div1,.div2{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                align-items: flex-start; 
+                margin-left: 20px;
+                h4{
+                    color: rgb(14, 247, 103);
+                    position: left; 
+                    width: 50px; 
+                    text-decoration: underline;
+                    font-size: 20px;
+                    font-style: italic;
+                    width: 70px;
+                }
+                .p1{
+                    font-size: 20px;
+                    color: rgb(14, 247, 103);
+                    text-size-adjust: left;
+                    margin: auto;
+                    }
+                    img{
+                        box-shadow: inset 0 0 10px rgb(235, 232, 238), 0 0 15px blue, 0 0 30px blue, inset  0 40px blue;
+                        box-sizing: 20px;
+                        height: 200px;
+                        width: 300px;
+                        margin: 50px;
+                    }    
+            }    
+        }
+    #descript{
+        grid-area: descript;
+        margin: 40px;
+        p{
+            height: 400px;
+            width: 100%;
+            box-shadow: inset 0 0 10px rgb(235, 232, 238), 0 0 15px blueviolet, 0 0 30px blueviolet, inset 0 0 40px blueviolet;
+            text-align: center;
+            color: rgb(14, 247, 103);
+            font-size: 20px;
+            overflow: auto;   
+            padding:  20px, 8px, 8px, 8px;
+            font-style: oblique;
+       }  
+    }
+    #infoButtons{
+        font-size: 25px;
+        background-color: none;
+        opacity: 90%;
+        border-radius: 12px;
+        border: white;
+        box-shadow: inset 0 0 5px white, 0 0 5px red;
+        text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+        font-style: italic; color: rgb(14, 247, 103);     
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        padding: unset;
+        grid-area: info;
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 200px;
+            width: 100%;
+            padding: unset;
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                list-style-type: none;          
+                a{
+                    background-color: red; 
+                    opacity: 90%;
+                    border-radius: 12px;
+                    border: white;
+                    box-shadow: inset 0 0 5px white, 0 0 5px red;
+                    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+                    font-style: italic;
+                    color: rgb(14, 247, 103);
+                    width: 200px;
+                    text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+                    text-decoration: none; 
+                    margin: 20px;
+                }
+            }
+
+        }
+
+    }   
+}

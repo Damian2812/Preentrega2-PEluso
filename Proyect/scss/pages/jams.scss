@@ -1,0 +1,108 @@
+#jams{
+    background-image: url(https://www.shutterstock.com/image-illustration/jazz-night-neon-text-on-260nw-2323094479.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h1{
+        font-size: 150px;
+        color: white;
+        font-weight: 80;
+        font-style: italic;
+        text-align: center;
+        font-family: "Neonderthaw-regular", serif;
+        text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+        margin: 20px;
+    }
+
+        .header{
+        width: 100%;
+        height: 180px;
+        grid-area: header;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly; 
+            text-align: flex-end;
+            list-style-type: none;
+            .join, li{
+             
+                 padding: 20px 0;
+            
+              button, a{
+                    background-color: red; 
+                    opacity: 50%;
+                    border-radius: 12px;
+                    border: white;
+                    box-shadow: inset 0 0 10px white, 0 0 15px red, 0 0 30px red, 0 0 35px red;
+                    position: fixed;
+                    text-shadow: 0 0 10px red, 0 0 15px red, 0 0 30px red, 0 0 50px white;
+                    color: rgb(14, 247, 103);
+                    font-weight: 20px;                 
+                    font-style: italic;  
+                    text-decoration: none;
+                    z-index: 100;
+                    font-size: 13px;
+                    width: 80px;
+                    text-align: center;   
+                    }        
+                
+            }
+        }
+    }
+
+    #weeksDays{
+        .weekDays {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            align-items: flex-start;
+            color: rgba(71, 29, 223, 0.89);
+            font-style: italic;
+            font-size: 20px;
+            text-decoration: none;
+            text-shadow: 0 0 5px rgba(71, 29, 223, 0.89), 0 0 15px rgba(71, 29, 223, 0.89), 0 0 30px rgba(71, 29, 223, 0.89), 0 0 50px rgba(71, 29, 223, 0.89);
+            overflow: hidden;
+            margin: 20px 40px;
+            box-shadow:0 0 5px rgba(255, 2, 2, 0.89), 0 0 15px rgba(255, 0, 0, 0.89), inset 0 0 30px rgba(253, 3, 3, 0.89), 0 0 50px rgba(252, 2, 2, 0.89);
+            width: 1200px;
+            height: 300px; 
+            iframe{
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 450px;
+            }
+            img{
+                height: 150px;
+                width: 250px;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+            p{
+                color: blueviolet;
+                font-style: italic;
+                font-size: 20px;
+                text-shadow: 0 0 5px rgba(71, 29, 223, 0.89), 0 0 15px rgba(71, 29, 223, 0.89), 0 0 30px rgba(71, 29, 223, 0.89), 0 0 50px rgba(71, 29, 223, 0.89);
+                text-decoration: none;
+                margin: 40px;
+                overflow: auto;
+            }
+            h3{
+                 margin-top: 10px;
+                 margin-left: 20px;
+                 text-decoration: underline;
+            }
+        }
+       
+    }
+    footer{
+        grid-area: footer;
+    
+        p{
+        font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+        font-size:  25px;
+        color: rgb(14, 247, 103);
+        text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+        }
+    }
+}

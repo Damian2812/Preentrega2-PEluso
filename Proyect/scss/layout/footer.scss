@@ -1,0 +1,10 @@
+footer{
+    grid-area: footer;
+    margin: 10px;
+    p{
+        font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+        font-size:  25px;
+        color: rgb(14, 247, 103);
+        text-shadow: 0 0 5px rgb(14, 247, 103), 0 0 15px rgb(14, 247, 103), 0 0 30px rgb(14, 247, 103), 0 0 50px rgb(14, 247, 103);
+    }
+}  
